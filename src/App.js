@@ -1,9 +1,21 @@
+import logo from "./logo.png";
 import "./App.css";
+import Dictionary from "./Dictionary";
 
 export default function App() {
   return (
     <div className="App">
-      <h1>Dictionary</h1>
+      <header className="App-header">
+        <img src={logo} className="App-logo" img-fluid alt="logo" />
+      </header>
+      <div className="container">
+        <main>
+          <Dictionary />
+        </main>
+        <footer className="App-footer">
+          <small>Coded by Amina</small>
+        </footer>
+      </div>
     </div>
   );
 }

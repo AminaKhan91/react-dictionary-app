@@ -1,3 +1,10 @@
-.App h1 {
+.App-logo {
+  max-width: 60px;
+  margin: 0 auto;
+  margin-bottom: 35px;
+}
+
+.App-footer {
   text-align: center;
+  margin: 30px 0;
 }
