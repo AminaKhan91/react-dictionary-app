@@ -1,3 +1,11 @@
+body {
+  background: #f9f8fe;
+}
+
+a {
+  color: #f76b8a;
+}
+
 .App-logo {
   max-width: 60px;
   margin: 0 auto;
