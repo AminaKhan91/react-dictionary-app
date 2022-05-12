@@ -14,7 +14,15 @@ export default function App() {
         </main>
         <footer className="App-footer">
           <small>
-            Coded by Amina and is{" "}
+            Coded by{" "}
+            <a
+              href="https://gracious-euclid-fb1db5.netlify.app/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Amina
+            </a>{" "}
+            and is{" "}
             <a
               href="https://github.com/AminaKhan91/react-dictionary-app"
               target="_blank"
