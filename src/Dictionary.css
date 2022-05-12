@@ -44,3 +44,8 @@
   font-size: 11px;
   margin-top: 5px;
 }
+
+.Dictionary .loader {
+  text-align: center;
+  display: block;
+}

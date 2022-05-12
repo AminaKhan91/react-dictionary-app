@@ -3,7 +3,7 @@ import axios from "axios";
 import Results from "./Results.js";
 import Photos from "./Photos.js";
 import "./Dictionary.css";
-import Loader from "react-js-loader";
+import ReactLoading from "react-loading";
 
 export default function Dictionary(props) {
   let [keyword, setKeyword] = useState(props.defaultKeyword);
@@ -76,9 +76,13 @@ export default function Dictionary(props) {
   } else {
     load();
     return (
-      <div className="item">
-        <Loader type="hourglass" title="hourglass" color="black" size={100} />
-      </div>
+      <ReactLoading
+        type="spin"
+        color="black"
+        height={667}
+        width={367}
+        className="loader"
+      />
     );
   }
 }
